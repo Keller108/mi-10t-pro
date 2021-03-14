@@ -23,6 +23,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     margin: 0;
