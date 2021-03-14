@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.details__content-wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    overflow: hidden;
+}
+
+.mi-10t-pro__single-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.mi-10t-pro__regural-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mi-10t-pro__regular-section {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    padding: 50px 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    color: #242424 !important;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.mi-10t-pro__title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mi-10t-pro__span-gradient-text {
+    background: -webkit-linear-gradient(#1f384d, #0e6d92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mi-10t-pro__description-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mi-10t-pro__description-list-item {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.mi-10t-pro__description-list-item_fixed_width {
+    font-size: 14px;
+    max-width: 400px;
+}
+
+.mi-10t-pro__description-list-item::before {
+    content: "•";
+    color: #0e6d92;
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.mi-10t-pro__section-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.mi-10t-pro__section-subtitle {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mi-10t-pro__section-subtitle_width_400px {
+    max-width: 400px;
+}
+
+.mi-10t-pro__section-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mi-10t-pro__bold-grad-span-text {
+    font-size: 26px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#1f384d, #0e6d92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mi-10t-pro__mt30p {
+    margin-top: 20px;
+}
+
+.mi-10t-pro__photo-grid-section {
+    padding: 25px 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    gap: 10px;
+}
+
+.mi-10t-pro__grid-photo-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+    -o-object-position: center;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mi-10t-pro__double-col-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0 50px 90px;
+}
+
+.mi-10t-pro__double-col-section-content-wrap {
+    max-width: 60%;
+}
+
+.mi-10t-pro__grid-content-item {
+    width: 40%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+@media (max-width: 681px) {
+    .mi-10t-pro__double-col-section-content-wrap {
+        max-width: 100%;
+        padding-right: 40px;
+        padding-left: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .mi-10t-pro__grid-content-item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mi-10t-pro__section-title {
+        font-size: 20px;
+    }
+    .mi-10t-pro__section-subtitle {
+        font-size: 18px;
+    }
+    .mi-10t-pro__section-text {
+        font-size: 15px;
+    }
+    .mi-10t-pro__regular-section {
+        padding: 30px;
+    }
+    .mi-10t-pro__double-col-section {
+        padding-left: 30px;
+    }
+}
