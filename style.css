@@ -31,11 +31,13 @@
     font-size: 0;
 }
 
-.mi-10t-pro__regural-image {
+.mi-10t-pro__regular-image {
     width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
     font-size: 0;
     margin: 0;
     padding: 0;
