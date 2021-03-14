@@ -12,20 +12,14 @@
 }
 
 .details__content-wrap {
-    max-width: 800px;
     width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     padding-bottom: 75px;
     overflow: hidden;
 }
 
-.mi-10t-pro__single-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
+.mi-10t-pro__single-image-section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,10 +33,6 @@
     object-position: center;
     -o-object-fit: cover;
     -o-object-position: center;
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .mi-10t-pro__regular-section {
