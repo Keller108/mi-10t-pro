@@ -198,6 +198,10 @@
         -o-object-fit: contain;
         width: 100%;
     }
+    .mi-10t-pro__double-col-section {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 480px) {
