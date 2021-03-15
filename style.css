@@ -194,6 +194,8 @@
         justify-content: flex-start;
     }
     .mi-10t-pro__grid-content-item {
+        object-fit: contain;
+        -o-object-fit: contain;
         width: 100%;
     }
 }
